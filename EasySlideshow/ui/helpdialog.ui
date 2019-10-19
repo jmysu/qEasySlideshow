@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpDialog</class>
+ <widget class="QDialog" name="HelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>451</width>
+    <height>209</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Help</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resources.qrc">
+    <normaloff>:/icon/app</normaloff>:/icon/app</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="locale">
+      <locale language="English" country="UnitedStates"/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="locale">
+         <locale language="English" country="UnitedStates"/>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>-6</y>
+           <width>434</width>
+           <height>1296</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QLabel" name="infoLabel">
+            <property name="cursor">
+             <cursorShape>IBeamCursor</cursorShape>
+            </property>
+            <property name="locale">
+             <locale language="English" country="UnitedStates"/>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/icon/app&quot;/&gt;&lt;span style=&quot; color:#f0f0f0;&quot;&gt;________________&lt;/span&gt;&lt;img src=&quot;:/png/jc128.png&quot;/&gt;&lt;/p&gt;&lt;h1 style=&quot; margin-top:18px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:xx-large; font-weight:600;&quot;&gt;EasySlideshow v%1&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;This is the first version of EasySlideshow. &lt;/p&gt;&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;Help&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;EasySlideshow takes one or multiple directories and shows the images inside of it in a randomized order. A &lt;span style=&quot; font-weight:600;&quot;&gt;click&lt;/span&gt; on the image takes you to the subfolder where the image is located. Previous images can be accessed via the &lt;span style=&quot; font-weight:600;&quot;&gt;[&amp;lt;]&lt;/span&gt; button. The next image is shown in the set speed or by pressing the &lt;span style=&quot; font-weight:600;&quot;&gt;[&amp;gt;]&lt;/span&gt; button. Image location and display speed can be set in the settings dialog. To pause the slideshow just press the &lt;span style=&quot; font-weight:600;&quot;&gt;[II]&lt;/span&gt; button. &lt;/p&gt;&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt;Shortcuts&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;The following shortcuts exist: &lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;[Left Arrow] Go to the previous image&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;[Right Arrow] Go the the next image&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;[Space] Pause the slideshow&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;[L] Rotate image left&lt;/li&gt;&lt;li style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;[R] Rotate image right&lt;/li&gt;&lt;/ul&gt;&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;Source Code&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;This software is open source which can be found &lt;a href=&quot;https://github.com/minils/EasySlideshow&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#000000;&quot;&gt;here&lt;/span&gt;&lt;/a&gt; on GitHub.&lt;/p&gt;&lt;p&gt;Built from git commit &lt;span style=&quot; font-weight:600;&quot;&gt;%2&lt;/span&gt;.&lt;/p&gt;&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;License&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;This software is released under the &lt;span style=&quot; font-weight:600;&quot;&gt;GNU General Public License 3.0&lt;/span&gt; which can be found &lt;a href=&quot;http://www.gnu.org/licenses/gpl-3.0.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#000000;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;Author&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Nils Schwabe &lt;a href=&quot;https://minils.de&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#000000;&quot;&gt;www.minils.de&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;Icons&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Taken from &lt;span style=&quot; font-weight:600;&quot;&gt;Material Icons&lt;/span&gt; which were released under the &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#000000;&quot;&gt;CC BY 4.0&lt;/span&gt;&lt;/a&gt; and can be found &lt;a href=&quot;https://design.google.com/icons/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#000000;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;. &lt;/p&gt;&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;Language Icons&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Taken from &lt;a href=&quot;http://www.famfamfam.com/lab/icons/flags/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#000000;&quot;&gt;FAMFAMFAM&lt;/span&gt;&lt;/a&gt;. &lt;span style=&quot; font-style:italic;&quot;&gt;These flag icons are available for free use for any purpose with no requirement for attribution.&lt;/span&gt;&lt;/p&gt;&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600;&quot;&gt;Roboto Font&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;Released under the &lt;a href=&quot;http://www.apache.org/licenses/LICENSE-2.0.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#000000;&quot;&gt;Apache License 2.0&lt;/span&gt;&lt;/a&gt;. Can be found &lt;a href=&quot;https://github.com/google/roboto/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#000000;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="openExternalLinks">
+             <bool>true</bool>
+            </property>
+            <property name="textInteractionFlags">
+             <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
