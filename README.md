@@ -1,8 +1,8 @@
 # qEasySlideshow [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) <br>
 
-EasySlideshow for Pi, Windows, Mac (forked from __github EasySlideshow__) <br>
+EasySlideshow for Pi, Windows, Mac (forked from _github EasySlideshow_) <br>
   - Change toolbar auto hide when mouse left toolbar area! <br>
-  - Change libExif to __gihub EasyExif__ <br>
+  - Change libExif to _gihub EasyExif_ <br>
 
 
 <img src="PiEasySlideShow1019.gif" width="480"/> <br><br>
