@@ -1,2 +1,4 @@
 # qEasySlideshow
-EasySlideshow for Pi, Windows, Mac
+EasySlideshow for Pi, Windows, Mac (forked from ...)
+
+
